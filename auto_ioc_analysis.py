@@ -139,9 +139,11 @@ browser.find_element_by_id('txtUrl').click()
 time.sleep(1)
 keyboard.type(ioc_to_be_searched)
 time.sleep(1)
+browser.find_element_by_id('btnLookup').click()
+time.sleep(1)
+browser.find_element_by_id('btnLookup').click()
 keyboard.press(Key.enter)
 keyboard.release(Key.enter)
-browser.find_element_by_id('btnLookup').click()
 
 ## securitytails bgpview
 #Open new tab
